@@ -1,0 +1,2 @@
+minute,model,calibration,mae,rmse,corr
+60,XGBoost,none,1.538545613374674,1.9490329818838439,0.5046545416357429

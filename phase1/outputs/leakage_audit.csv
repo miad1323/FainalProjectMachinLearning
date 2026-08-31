@@ -1,0 +1,4 @@
+check,passed
+Pre-match history strictly before kick-off,True
+In-play event timestamp <= snapshot time,True
+GMMSampling called only on training partition,True

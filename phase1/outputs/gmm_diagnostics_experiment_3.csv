@@ -1,0 +1,4 @@
+class,role,original_size,target_size,generated_or_removed,selected_components,component_Q,dev_log_likelihoods
+A,minority,8,12,4,1,[1.0],"[-102.811, -20523.3154]"
+D,minority,6,12,6,1,[1.0],[]
+H,majority,16,12,-4,0,[],[]

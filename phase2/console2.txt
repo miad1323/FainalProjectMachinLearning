@@ -1,0 +1,391 @@
+C:\Users\Admin\anaconda3\envs\vit\python.exe C:\Users\Admin\Downloads\fainalProject_Phase1_Phase2_FINAL_UPDATED\phase2\run_phase2.py 
+Seasons found: ['2017/2018', '2018/2019', '2019/2020', '2020/2021']
+Will run 3 splits: [('2017/2018', '2018/2019'), ('2018/2019', '2019/2020'), ('2019/2020', '2020/2021')]
+
+============================================================
+ SPLIT 1: Train on 2017/2018 -> Test on 2018/2019
+============================================================
+
+============================================================
+  RUNNING TASK: C
+============================================================
+  -> No tagged odds in test set. MarketOdds baseline will be skipped.
+
+============================================================
+  RUNNING TASK: R
+============================================================
+  Training regression model: DummyPrior...
+  Training regression model: SVR...
+  Training regression model: KernelRidge...
+  Training regression model: KernelRidgeApprox...
+  Training regression model: RandomForest...
+  Training regression model: GBM...
+  Training regression model: XGBoost...
+  Training regression model: LightGBM...
+  Training regression model: FIGS...
+
+============================================================
+  RUNNING TASK: L
+============================================================
+
+============================================================
+  RUNNING TASK: L_REG
+============================================================
+  Training regression model: DummyPrior...
+  Training regression model: SVR...
+  Training regression model: KernelRidge...
+  Training regression model: KernelRidgeApprox...
+  Training regression model: RandomForest...
+  Training regression model: GBM...
+  Training regression model: XGBoost...
+  Training regression model: LightGBM...
+  Training regression model: FIGS...
+No per-minute classification files found; skipping in-play metrics.
+Generating SHAP waterfalls for Task C worst predictions...
+Generating SHAP waterfalls for Task L worst predictions...
+Generating SHAP waterfalls for Task R worst predictions...
+Running kernel scaling experiment (SVC on increasing subset sizes)...
+Subset sizes: [1, 4, 8, 10, 12, 17]
+  n=1, skipped (subset contains only 1 class)
+  n=4, time=0.0009s
+  n=8, time=0.0008s
+  n=10, time=0.0008s
+  n=12, time=0.0007s
+  n=17, time=0.0010s
+Kernel scaling plot saved.
+No GMM diagnostics found; skipping component count plot.
+All analysis completed.
+
+--- Results for Split 1 ---
+  task                             model calibration  balanced_accuracy  macro_f1     mcc    mae   rmse      r2
+     C                        DummyPrior        none             0.3333    0.1970  0.0000    NaN    NaN     NaN
+     C                               SVC        none             0.4904    0.4068  0.3022    NaN    NaN     NaN
+     C                               SVC     sigmoid             0.4487    0.3778  0.2474    NaN    NaN     NaN
+     C                               SVC    isotonic             0.4487    0.3778  0.2474    NaN    NaN     NaN
+     C                      RandomForest        none             0.5077    0.4577  0.3499    NaN    NaN     NaN
+     C                      RandomForest     sigmoid             0.4077    0.3811  0.1958    NaN    NaN     NaN
+     C                      RandomForest    isotonic             0.6077    0.5159  0.5337    NaN    NaN     NaN
+     C                               GBM        none             0.5071    0.4973  0.3132    NaN    NaN     NaN
+     C                               GBM     sigmoid             0.4731    0.4779  0.2637    NaN    NaN     NaN
+     C                               GBM    isotonic             0.5071    0.5005  0.3187    NaN    NaN     NaN
+     C                           XGBoost        none             0.5327    0.5203  0.3645    NaN    NaN     NaN
+     C                           XGBoost     sigmoid             0.4487    0.3778  0.2474    NaN    NaN     NaN
+     C                           XGBoost    isotonic             0.4641    0.4493  0.2466    NaN    NaN     NaN
+     C                          LightGBM        none             0.3333    0.1970  0.0000    NaN    NaN     NaN
+     C                          LightGBM     sigmoid             0.3333    0.1970  0.0000    NaN    NaN     NaN
+     C                          LightGBM    isotonic             0.3333    0.1970  0.0000    NaN    NaN     NaN
+     C                              FIGS        none             0.4462    0.4251  0.2235    NaN    NaN     NaN
+     C                              FIGS     sigmoid             0.5160    0.4208  0.3625    NaN    NaN     NaN
+     C                              FIGS    isotonic             0.5160    0.4208  0.3625    NaN    NaN     NaN
+     R                        DummyPrior        none                NaN       NaN     NaN 1.5598 1.9755 -0.0441
+     R                               SVR        none                NaN       NaN     NaN 1.2813 1.6533  0.2687
+     R                       KernelRidge        none                NaN       NaN     NaN 1.0980 1.3873  0.4851
+     R                 KernelRidgeApprox        none                NaN       NaN     NaN 1.2466 1.5502  0.3570
+     R                      RandomForest        none                NaN       NaN     NaN 1.2001 1.4793  0.4145
+     R                               GBM        none                NaN       NaN     NaN 1.4924 1.7822  0.1502
+     R                           XGBoost        none                NaN       NaN     NaN 1.1350 1.4199  0.4606
+     R                          LightGBM        none                NaN       NaN     NaN 1.5598 1.9755 -0.0441
+     R                              FIGS        none                NaN       NaN     NaN 1.4839 1.9344 -0.0011
+     L                        DummyPrior        none             0.3333    0.1970  0.0000    NaN    NaN     NaN
+     L                               SVC        none             0.5364    0.4631  0.3877    NaN    NaN     NaN
+     L                               SVC     sigmoid             0.5131    0.4619  0.3566    NaN    NaN     NaN
+     L                               SVC    isotonic             0.5188    0.4649  0.3684    NaN    NaN     NaN
+     L                      RandomForest        none             0.4058    0.4160  0.1672    NaN    NaN     NaN
+     L                      RandomForest     sigmoid             0.4744    0.3971  0.2939    NaN    NaN     NaN
+     L                      RandomForest    isotonic             0.4192    0.3418  0.1877    NaN    NaN     NaN
+     L                               GBM        none             0.3821    0.3399  0.1290    NaN    NaN     NaN
+     L                               GBM     sigmoid             0.4545    0.4338  0.2240    NaN    NaN     NaN
+     L                               GBM    isotonic             0.4231    0.3580  0.2018    NaN    NaN     NaN
+     L                           XGBoost        none             0.3897    0.3802  0.1543    NaN    NaN     NaN
+     L                           XGBoost     sigmoid             0.4647    0.3802  0.2689    NaN    NaN     NaN
+     L                           XGBoost    isotonic             0.4103    0.3478  0.1793    NaN    NaN     NaN
+     L                          LightGBM        none             0.4023    0.3931  0.1582    NaN    NaN     NaN
+     L                          LightGBM     sigmoid             0.4451    0.4300  0.2026    NaN    NaN     NaN
+     L                          LightGBM    isotonic             0.4510    0.3809  0.2476    NaN    NaN     NaN
+     L                              FIGS        none             0.2699    0.2981 -0.0454    NaN    NaN     NaN
+     L                              FIGS     sigmoid             0.2949    0.2435 -0.0305    NaN    NaN     NaN
+     L                              FIGS    isotonic             0.2949    0.2435 -0.0305    NaN    NaN     NaN
+ L_reg                        DummyPrior        none                NaN       NaN     NaN 1.5598 1.9755 -0.0441
+ L_reg                               SVR        none                NaN       NaN     NaN 1.2275 1.4637  0.4269
+ L_reg                       KernelRidge        none                NaN       NaN     NaN 1.2231 1.5064  0.3929
+ L_reg                 KernelRidgeApprox        none                NaN       NaN     NaN 1.2108 1.4483  0.4388
+ L_reg                      RandomForest        none                NaN       NaN     NaN 1.9206 2.3998 -0.5408
+ L_reg                               GBM        none                NaN       NaN     NaN 1.7346 2.2407 -0.3433
+ L_reg                           XGBoost        none                NaN       NaN     NaN 1.5583 2.0209 -0.0927
+ L_reg                          LightGBM        none                NaN       NaN     NaN 1.9770 2.4233 -0.5710
+ L_reg                              FIGS        none                NaN       NaN     NaN 1.6904 2.0307 -0.1033
+R_to_C        Margin_to_Class_DummyPrior        none             0.3333    0.1970  0.0000    NaN    NaN     NaN
+R_to_C               Margin_to_Class_SVR        none             0.5160    0.4208  0.3625    NaN    NaN     NaN
+R_to_C       Margin_to_Class_KernelRidge        none             0.4904    0.4008  0.3151    NaN    NaN     NaN
+R_to_C Margin_to_Class_KernelRidgeApprox        none             0.4647    0.3802  0.2689    NaN    NaN     NaN
+R_to_C      Margin_to_Class_RandomForest        none             0.5160    0.4208  0.3625    NaN    NaN     NaN
+R_to_C               Margin_to_Class_GBM        none             0.5160    0.4208  0.3625    NaN    NaN     NaN
+R_to_C           Margin_to_Class_XGBoost        none             0.5744    0.5591  0.4236    NaN    NaN     NaN
+R_to_C          Margin_to_Class_LightGBM        none             0.3333    0.1970  0.0000    NaN    NaN     NaN
+R_to_C              Margin_to_Class_FIGS        none             0.3333    0.1970  0.0000    NaN    NaN     NaN
+------------------------------------------------------------
+
+============================================================
+ SPLIT 2: Train on 2018/2019 -> Test on 2019/2020
+============================================================
+
+============================================================
+  RUNNING TASK: C
+============================================================
+  -> No tagged odds in test set. MarketOdds baseline will be skipped.
+
+============================================================
+  RUNNING TASK: R
+============================================================
+  Training regression model: DummyPrior...
+  Training regression model: SVR...
+  Training regression model: KernelRidge...
+  Training regression model: KernelRidgeApprox...
+  Training regression model: RandomForest...
+  Training regression model: GBM...
+  Training regression model: XGBoost...
+  Training regression model: LightGBM...
+  Training regression model: FIGS...
+
+============================================================
+  RUNNING TASK: L
+============================================================
+
+============================================================
+  RUNNING TASK: L_REG
+============================================================
+  Training regression model: DummyPrior...
+  Training regression model: SVR...
+  Training regression model: KernelRidge...
+  Training regression model: KernelRidgeApprox...
+  Training regression model: RandomForest...
+  Training regression model: GBM...
+  Training regression model: XGBoost...
+  Training regression model: LightGBM...
+  Training regression model: FIGS...
+No per-minute classification files found; skipping in-play metrics.
+Generating SHAP waterfalls for Task C worst predictions...
+Generating SHAP waterfalls for Task L worst predictions...
+Generating SHAP waterfalls for Task R worst predictions...
+Running kernel scaling experiment (SVC on increasing subset sizes)...
+Subset sizes: [3, 7, 10, 15, 20, 23, 31]
+  n=3, time=0.0009s
+  n=7, time=0.0008s
+  n=10, time=0.0007s
+  n=15, time=0.0007s
+  n=20, time=0.0007s
+  n=23, time=0.0007s
+  n=31, time=0.0008s
+Kernel scaling plot saved.
+No GMM diagnostics found; skipping component count plot.
+All analysis completed.
+
+--- Results for Split 2 ---
+  task                             model calibration  balanced_accuracy  macro_f1    mcc    mae   rmse      r2
+     C                        DummyPrior        none             0.3333    0.2319 0.0000    NaN    NaN     NaN
+     C                               SVC        none             0.6042    0.5115 0.5457    NaN    NaN     NaN
+     C                               SVC     sigmoid             0.5000    0.4405 0.3427    NaN    NaN     NaN
+     C                               SVC    isotonic             0.6042    0.5115 0.5457    NaN    NaN     NaN
+     C                      RandomForest        none             0.6042    0.5220 0.5334    NaN    NaN     NaN
+     C                      RandomForest     sigmoid             0.6042    0.5115 0.5457    NaN    NaN     NaN
+     C                      RandomForest    isotonic             0.6181    0.5919 0.5139    NaN    NaN     NaN
+     C                               GBM        none             0.4722    0.4748 0.3078    NaN    NaN     NaN
+     C                               GBM     sigmoid             0.5833    0.5051 0.5180    NaN    NaN     NaN
+     C                               GBM    isotonic             0.6389    0.5911 0.5549    NaN    NaN     NaN
+     C                           XGBoost        none             0.5625    0.5018 0.4669    NaN    NaN     NaN
+     C                           XGBoost     sigmoid             0.6458    0.5570 0.6404    NaN    NaN     NaN
+     C                           XGBoost    isotonic             0.7917    0.7736 0.7405    NaN    NaN     NaN
+     C                          LightGBM        none             0.3333    0.2319 0.0000    NaN    NaN     NaN
+     C                          LightGBM     sigmoid             0.3333    0.2319 0.0000    NaN    NaN     NaN
+     C                          LightGBM    isotonic             0.3333    0.2319 0.0000    NaN    NaN     NaN
+     C                              FIGS        none             0.5417    0.4444 0.4446    NaN    NaN     NaN
+     C                              FIGS     sigmoid             0.5833    0.4889 0.5024    NaN    NaN     NaN
+     C                              FIGS    isotonic             0.5833    0.4889 0.5024    NaN    NaN     NaN
+     R                        DummyPrior        none                NaN       NaN    NaN 1.7624 2.3035 -0.0371
+     R                               SVR        none                NaN       NaN    NaN 1.7568 2.2893 -0.0242
+     R                       KernelRidge        none                NaN       NaN    NaN 1.7667 2.3166 -0.0489
+     R                 KernelRidgeApprox        none                NaN       NaN    NaN 1.7633 2.3064 -0.0396
+     R                      RandomForest        none                NaN       NaN    NaN 1.3490 1.7726  0.3859
+     R                               GBM        none                NaN       NaN    NaN 1.2354 1.5292  0.5430
+     R                           XGBoost        none                NaN       NaN    NaN 1.2940 1.6591  0.4621
+     R                          LightGBM        none                NaN       NaN    NaN 1.7624 2.3035 -0.0371
+     R                              FIGS        none                NaN       NaN    NaN 1.6744 2.0825  0.1524
+     L                        DummyPrior        none             0.3333    0.2319 0.0000    NaN    NaN     NaN
+     L                               SVC        none             0.6080    0.5794 0.4826    NaN    NaN     NaN
+     L                               SVC     sigmoid             0.6466    0.6089 0.5779    NaN    NaN     NaN
+     L                               SVC    isotonic             0.6435    0.6099 0.5699    NaN    NaN     NaN
+     L                      RandomForest        none             0.4931    0.4920 0.3485    NaN    NaN     NaN
+     L                      RandomForest     sigmoid             0.5579    0.5324 0.4407    NaN    NaN     NaN
+     L                      RandomForest    isotonic             0.5548    0.5283 0.4378    NaN    NaN     NaN
+     L                               GBM        none             0.4514    0.4574 0.2692    NaN    NaN     NaN
+     L                               GBM     sigmoid             0.4329    0.3999 0.2629    NaN    NaN     NaN
+     L                               GBM    isotonic             0.4144    0.3863 0.2264    NaN    NaN     NaN
+     L                           XGBoost        none             0.4583    0.4474 0.2649    NaN    NaN     NaN
+     L                           XGBoost     sigmoid             0.5046    0.5102 0.3535    NaN    NaN     NaN
+     L                           XGBoost    isotonic             0.4873    0.4936 0.3326    NaN    NaN     NaN
+     L                          LightGBM        none             0.3681    0.3805 0.1543    NaN    NaN     NaN
+     L                          LightGBM     sigmoid             0.5278    0.5315 0.3905    NaN    NaN     NaN
+     L                          LightGBM    isotonic             0.4109    0.4279 0.2497    NaN    NaN     NaN
+     L                              FIGS        none             0.4097    0.4135 0.2098    NaN    NaN     NaN
+     L                              FIGS     sigmoid             0.4514    0.4440 0.2364    NaN    NaN     NaN
+     L                              FIGS    isotonic             0.4514    0.4440 0.2364    NaN    NaN     NaN
+ L_reg                        DummyPrior        none                NaN       NaN    NaN 1.7624 2.3035 -0.0371
+ L_reg                               SVR        none                NaN       NaN    NaN 1.3740 1.7350  0.4117
+ L_reg                       KernelRidge        none                NaN       NaN    NaN 1.3640 1.7904  0.3735
+ L_reg                 KernelRidgeApprox        none                NaN       NaN    NaN 1.3894 1.7419  0.4070
+ L_reg                      RandomForest        none                NaN       NaN    NaN 1.4820 1.9902  0.2259
+ L_reg                               GBM        none                NaN       NaN    NaN 1.6252 1.9409  0.2637
+ L_reg                           XGBoost        none                NaN       NaN    NaN 1.5884 1.9587  0.2502
+ L_reg                          LightGBM        none                NaN       NaN    NaN 1.6194 2.1869  0.0653
+ L_reg                              FIGS        none                NaN       NaN    NaN 1.8723 2.2831 -0.0188
+R_to_C        Margin_to_Class_DummyPrior        none             0.3333    0.2319 0.0000    NaN    NaN     NaN
+R_to_C               Margin_to_Class_SVR        none             0.3333    0.2319 0.0000    NaN    NaN     NaN
+R_to_C       Margin_to_Class_KernelRidge        none             0.3333    0.2319 0.0000    NaN    NaN     NaN
+R_to_C Margin_to_Class_KernelRidgeApprox        none             0.3333    0.2319 0.0000    NaN    NaN     NaN
+R_to_C      Margin_to_Class_RandomForest        none             0.6042    0.5115 0.5457    NaN    NaN     NaN
+R_to_C               Margin_to_Class_GBM        none             0.6458    0.5697 0.6276    NaN    NaN     NaN
+R_to_C           Margin_to_Class_XGBoost        none             0.6806    0.6387 0.6511    NaN    NaN     NaN
+R_to_C          Margin_to_Class_LightGBM        none             0.3333    0.2319 0.0000    NaN    NaN     NaN
+R_to_C              Margin_to_Class_FIGS        none             0.5417    0.4444 0.4446    NaN    NaN     NaN
+------------------------------------------------------------
+
+============================================================
+ SPLIT 3: Train on 2019/2020 -> Test on 2020/2021
+============================================================
+
+============================================================
+  RUNNING TASK: C
+============================================================
+  -> No tagged odds in test set. MarketOdds baseline will be skipped.
+
+============================================================
+  RUNNING TASK: R
+============================================================
+  Training regression model: DummyPrior...
+  Training regression model: SVR...
+  Training regression model: KernelRidge...
+  Training regression model: KernelRidgeApprox...
+  Training regression model: RandomForest...
+  Training regression model: GBM...
+  Training regression model: XGBoost...
+  Training regression model: LightGBM...
+  Training regression model: FIGS...
+
+============================================================
+  RUNNING TASK: L
+============================================================
+
+============================================================
+  RUNNING TASK: L_REG
+============================================================
+  Training regression model: DummyPrior...
+  Training regression model: SVR...
+  Training regression model: KernelRidge...
+  Training regression model: KernelRidgeApprox...
+  Training regression model: RandomForest...
+  Training regression model: GBM...
+  Training regression model: XGBoost...
+  Training regression model: LightGBM...
+  Training regression model: FIGS...
+No per-minute classification files found; skipping in-play metrics.
+Generating SHAP waterfalls for Task C worst predictions...
+Generating SHAP waterfalls for Task L worst predictions...
+Generating SHAP waterfalls for Task R worst predictions...
+Running kernel scaling experiment (SVC on increasing subset sizes)...
+Subset sizes: [3, 7, 10, 15, 20, 22, 30]
+  n=3, time=0.0009s
+  n=7, time=0.0008s
+  n=10, time=0.0007s
+  n=15, time=0.0007s
+  n=20, time=0.0007s
+  n=22, time=0.0008s
+  n=30, time=0.0008s
+Kernel scaling plot saved.
+No GMM diagnostics found; skipping component count plot.
+All analysis completed.
+
+--- Results for Split 3 ---
+  task                             model calibration  balanced_accuracy  macro_f1    mcc    mae   rmse      r2
+     C                        DummyPrior        none             0.3333    0.1884 0.0000    NaN    NaN     NaN
+     C                               SVC        none             0.5617    0.5707 0.4074    NaN    NaN     NaN
+     C                               SVC     sigmoid             0.5220    0.4661 0.4279    NaN    NaN     NaN
+     C                               SVC    isotonic             0.5775    0.5658 0.4816    NaN    NaN     NaN
+     C                      RandomForest        none             0.4707    0.4521 0.3190    NaN    NaN     NaN
+     C                      RandomForest     sigmoid             0.5201    0.4673 0.4132    NaN    NaN     NaN
+     C                      RandomForest    isotonic             0.4725    0.4343 0.3166    NaN    NaN     NaN
+     C                               GBM        none             0.5873    0.5741 0.4838    NaN    NaN     NaN
+     C                               GBM     sigmoid             0.4963    0.4514 0.3631    NaN    NaN     NaN
+     C                               GBM    isotonic             0.4274    0.4362 0.2148    NaN    NaN     NaN
+     C                           XGBoost        none             0.4744    0.4251 0.3418    NaN    NaN     NaN
+     C                           XGBoost     sigmoid             0.4963    0.4444 0.3645    NaN    NaN     NaN
+     C                           XGBoost    isotonic             0.5519    0.5421 0.4152    NaN    NaN     NaN
+     C                          LightGBM        none             0.3333    0.1884 0.0000    NaN    NaN     NaN
+     C                          LightGBM     sigmoid             0.3333    0.1884 0.0000    NaN    NaN     NaN
+     C                          LightGBM    isotonic             0.3333    0.1884 0.0000    NaN    NaN     NaN
+     C                              FIGS        none             0.5281    0.5166 0.3757    NaN    NaN     NaN
+     C                              FIGS     sigmoid             0.4567    0.4351 0.2397    NaN    NaN     NaN
+     C                              FIGS    isotonic             0.4567    0.4343 0.2475    NaN    NaN     NaN
+     R                        DummyPrior        none                NaN       NaN    NaN 1.8030 2.2580 -0.0516
+     R                               SVR        none                NaN       NaN    NaN 1.7050 2.2023 -0.0003
+     R                       KernelRidge        none                NaN       NaN    NaN 2.5156 6.4024 -7.4542
+     R                 KernelRidgeApprox        none                NaN       NaN    NaN 1.7194 2.2045 -0.0023
+     R                      RandomForest        none                NaN       NaN    NaN 0.9416 1.2737  0.6654
+     R                               GBM        none                NaN       NaN    NaN 0.4519 0.6788  0.9050
+     R                           XGBoost        none                NaN       NaN    NaN 0.7064 0.9069  0.8304
+     R                          LightGBM        none                NaN       NaN    NaN 1.8030 2.2580 -0.0516
+     R                              FIGS        none                NaN       NaN    NaN 1.6145 1.8585  0.2876
+     L                        DummyPrior        none             0.3333    0.1884 0.0000    NaN    NaN     NaN
+     L                               SVC        none             0.5652    0.5528 0.4095    NaN    NaN     NaN
+     L                               SVC     sigmoid             0.4922    0.4684 0.3316    NaN    NaN     NaN
+     L                               SVC    isotonic             0.5853    0.5754 0.4418    NaN    NaN     NaN
+     L                      RandomForest        none             0.4469    0.4274 0.2728    NaN    NaN     NaN
+     L                      RandomForest     sigmoid             0.4963    0.4514 0.3631    NaN    NaN     NaN
+     L                      RandomForest    isotonic             0.4469    0.4274 0.2728    NaN    NaN     NaN
+     L                               GBM        none             0.4054    0.3939 0.1447    NaN    NaN     NaN
+     L                               GBM     sigmoid             0.3773    0.3150 0.1179    NaN    NaN     NaN
+     L                               GBM    isotonic             0.4725    0.4343 0.3166    NaN    NaN     NaN
+     L                           XGBoost        none             0.4805    0.4668 0.2842    NaN    NaN     NaN
+     L                           XGBoost     sigmoid             0.4368    0.3853 0.2508    NaN    NaN     NaN
+     L                           XGBoost    isotonic             0.4209    0.3731 0.2185    NaN    NaN     NaN
+     L                          LightGBM        none             0.4778    0.4606 0.2806    NaN    NaN     NaN
+     L                          LightGBM     sigmoid             0.4249    0.3704 0.2169    NaN    NaN     NaN
+     L                          LightGBM    isotonic             0.4421    0.3923 0.2617    NaN    NaN     NaN
+     L                              FIGS        none             0.4591    0.4531 0.2122    NaN    NaN     NaN
+     L                              FIGS     sigmoid             0.3535    0.2886 0.0730    NaN    NaN     NaN
+     L                              FIGS    isotonic             0.4011    0.3517 0.1855    NaN    NaN     NaN
+ L_reg                        DummyPrior        none                NaN       NaN    NaN 1.8030 2.2580 -0.0516
+ L_reg                               SVR        none                NaN       NaN    NaN 1.6083 1.9913  0.1822
+ L_reg                       KernelRidge        none                NaN       NaN    NaN 1.5959 1.9882  0.1847
+ L_reg                 KernelRidgeApprox        none                NaN       NaN    NaN 1.4964 1.8825  0.2691
+ L_reg                      RandomForest        none                NaN       NaN    NaN 1.7013 2.1049  0.0862
+ L_reg                               GBM        none                NaN       NaN    NaN 1.6390 2.0134  0.1639
+ L_reg                           XGBoost        none                NaN       NaN    NaN 1.5385 1.9487  0.2167
+ L_reg                          LightGBM        none                NaN       NaN    NaN 1.6333 1.9927  0.1810
+ L_reg                              FIGS        none                NaN       NaN    NaN 1.7076 2.2193 -0.0158
+R_to_C        Margin_to_Class_DummyPrior        none             0.3333    0.1884 0.0000    NaN    NaN     NaN
+R_to_C               Margin_to_Class_SVR        none             0.3333    0.1884 0.0000    NaN    NaN     NaN
+R_to_C       Margin_to_Class_KernelRidge        none             0.4927    0.4435 0.3498    NaN    NaN     NaN
+R_to_C Margin_to_Class_KernelRidgeApprox        none             0.3333    0.1884 0.0000    NaN    NaN     NaN
+R_to_C      Margin_to_Class_RandomForest        none             0.5440    0.4894 0.4627    NaN    NaN     NaN
+R_to_C               Margin_to_Class_GBM        none             0.6667    0.6000 0.7290    NaN    NaN     NaN
+R_to_C           Margin_to_Class_XGBoost        none             0.5934    0.5339 0.5709    NaN    NaN     NaN
+R_to_C          Margin_to_Class_LightGBM        none             0.3333    0.1884 0.0000    NaN    NaN     NaN
+R_to_C              Margin_to_Class_FIGS        none             0.5201    0.4673 0.4132    NaN    NaN     NaN
+------------------------------------------------------------
+
+=== Average balanced accuracy per model (across splits) ===
+model       task   calibration
+DummyPrior  C      none           0.3333
+            L      none           0.3333
+            L_reg  none              NaN
+            R      none              NaN
+FIGS        C      isotonic       0.5187
+                                   ...  
+XGBoost     L      isotonic       0.4395
+                   none           0.4428
+                   sigmoid        0.4687
+            L_reg  none              NaN
+            R      none              NaN
+Name: balanced_accuracy, Length: 65, dtype: float64
+
+Process finished with exit code 0

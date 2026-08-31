@@ -1,0 +1,2 @@
+minute,model,calibration,mae,rmse,corr
+20,SVR,none,1.714815304103253,2.1386055097803873,0.32185638861562804

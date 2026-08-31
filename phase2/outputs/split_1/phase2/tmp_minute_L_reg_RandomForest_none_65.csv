@@ -1,0 +1,2 @@
+minute,model,calibration,mae,rmse,corr
+65,RandomForest,none,1.920542521994135,2.39959191161929,0.3513294673725875

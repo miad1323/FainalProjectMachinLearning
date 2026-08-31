@@ -1,0 +1,2 @@
+minute,model,calibration,mae,rmse,corr
+80,DummyPrior,none,1.803030303030303,2.2579824730242812,0.0

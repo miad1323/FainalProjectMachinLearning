@@ -1,0 +1,2 @@
+minute,model,calibration,mae,rmse,corr
+65,KernelRidge,none,1.540459384677587,1.9240594662529458,0.5193294452691734

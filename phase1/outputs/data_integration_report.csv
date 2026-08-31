@@ -1,0 +1,8 @@
+check,violations
+event.match_id in matches,0
+lineup.match_id in matches,0
+three_sixty.match_id in matches,0
+event.team_id matches match home/away,0
+lineup.team_id matches match home/away,0
+event.player_id in lineups,0
+three_sixty.event_id in events,0

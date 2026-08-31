@@ -1,0 +1,2 @@
+minute,model,calibration,mae,rmse,corr
+80,GBM,none,1.638986367081364,2.013870126142861,0.518768218335802

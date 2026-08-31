@@ -1,0 +1,1 @@
+GradientBoostingClassifier is only supported for binary classification right now!
