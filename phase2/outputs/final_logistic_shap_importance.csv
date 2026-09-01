@@ -1,0 +1,12 @@
+feature,mean_abs_shap
+diff_form5_carries_final_third_final,0.4224657175246762
+diff_form5_xg_for_final,0.2964526903755874
+diff_form5_goals_for_final,0.2934099986474337
+diff_form5_xg_against_final,0.2631558668710111
+diff_form5_pressures_final,0.24050043948986977
+diff_form5_goals_against_final,0.17138975545416155
+diff_form5_points_final,0.12446506147789348
+diff_form5_completed_passes_final,0.11682584313990631
+diff_form5_passes_final,0.09253008809526334
+diff_form5_shots_for_final,0.07740836495610123
+diff_form5_event_share_final,0.07465662484905244

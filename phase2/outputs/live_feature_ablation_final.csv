@@ -1,0 +1,4 @@
+step,group,action,validation_rps,delta_rps,reason
+1,score_state,KEEP,0.13055595392491715,,minimum live state needed to know what is happening now
+2,recent_momentum,REJECT,0.13039406091595218,0.00016189300896496395,no >=0.0005 validation RPS gain; omitted from deployment
+2,cumulative_event_quality,REJECT,0.13044553102548884,0.00011042289942830852,no >=0.0005 validation RPS gain; omitted from deployment

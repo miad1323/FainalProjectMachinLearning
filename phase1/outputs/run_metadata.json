@@ -35,8 +35,8 @@
     ],
     "RECENT_WINDOW": 5,
     "ENABLE_ODDS_DOWNLOAD": true,
-    "CACHE_DIR": "C:\\Users\\Admin\\Downloads\\fainalProject_Phase1_Phase2_FINAL_UPDATED\\cache",
-    "OUTPUT_DIR": "C:\\Users\\Admin\\Downloads\\fainalProject_Phase1_Phase2_FINAL_UPDATED\\phase1\\outputs"
+    "CACHE_DIR": "D:\\arshad\\term2\\MachinLearning\\fainalProject\\ML_final\\cache",
+    "OUTPUT_DIR": "D:\\arshad\\term2\\MachinLearning\\fainalProject\\ML_final\\phase1\\outputs"
   },
   "data_metadata": {
     "competition_name": "La Liga",
@@ -62,154 +62,46 @@
         "n_three_sixty_matches_loaded": 0,
         "event_failures": [],
         "lineup_failures": [],
-        "three_sixty_missing_count": 0,
-        "three_sixty_missing_match_ids": [],
-        "three_sixty_failures": [
-          {
-            "match_id": 9575,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9575.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9581,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9581.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9592,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9592.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9602,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9602.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9609,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9609.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9620,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9620.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9636,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9636.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9642,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9642.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9650,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9650.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9661,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9661.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9673,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9673.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9682,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9682.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9695,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9695.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9700,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9700.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9717,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9717.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9726,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9726.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9736,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9736.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9742,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9742.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9754,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9754.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9765,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9765.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9774,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9774.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9783,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9783.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9794,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9794.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9799,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9799.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9811,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9811.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9827,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9827.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9837,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9837.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9855,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9855.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9860,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9860.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9870,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9870.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9880,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9880.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9889,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9889.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9912,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9912.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9924,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9924.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9928,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9928.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 9948,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/9948.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          }
-        ]
+        "three_sixty_missing_count": 36,
+        "three_sixty_missing_match_ids": [
+          9575,
+          9581,
+          9592,
+          9602,
+          9609,
+          9620,
+          9636,
+          9642,
+          9650,
+          9661,
+          9673,
+          9682,
+          9695,
+          9700,
+          9717,
+          9726,
+          9736,
+          9742,
+          9754,
+          9765,
+          9774,
+          9783,
+          9794,
+          9799,
+          9811,
+          9827,
+          9837,
+          9855,
+          9860,
+          9870,
+          9880,
+          9889,
+          9912,
+          9924,
+          9928,
+          9948
+        ],
+        "three_sixty_failures": []
       },
       {
         "competition_id": 11,
@@ -222,146 +114,44 @@
         "n_three_sixty_matches_loaded": 0,
         "event_failures": [],
         "lineup_failures": [],
-        "three_sixty_missing_count": 0,
-        "three_sixty_missing_match_ids": [],
-        "three_sixty_failures": [
-          {
-            "match_id": 15946,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/15946.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 15956,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/15956.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 15973,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/15973.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 15978,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/15978.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 15986,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/15986.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 15998,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/15998.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16010,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16010.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16023,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16023.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16029,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16029.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16056,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16056.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16073,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16073.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16079,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16079.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16086,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16086.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16095,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16095.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16109,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16109.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16120,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16120.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16131,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16131.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16136,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16136.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16149,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16149.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16157,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16157.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16173,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16173.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16182,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16182.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16190,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16190.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16196,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16196.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16205,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16205.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16215,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16215.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16231,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16231.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16240,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16240.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16248,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16248.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16265,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16265.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16275,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16275.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16289,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16289.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16306,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16306.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 16317,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/16317.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          }
-        ]
+        "three_sixty_missing_count": 34,
+        "three_sixty_missing_match_ids": [
+          15946,
+          15956,
+          15973,
+          15978,
+          15986,
+          15998,
+          16010,
+          16023,
+          16029,
+          16056,
+          16073,
+          16079,
+          16086,
+          16095,
+          16109,
+          16120,
+          16131,
+          16136,
+          16149,
+          16157,
+          16173,
+          16182,
+          16190,
+          16196,
+          16205,
+          16215,
+          16231,
+          16240,
+          16248,
+          16265,
+          16275,
+          16289,
+          16306,
+          16317
+        ],
+        "three_sixty_failures": []
       },
       {
         "competition_id": 11,
@@ -374,142 +164,43 @@
         "n_three_sixty_matches_loaded": 0,
         "event_failures": [],
         "lineup_failures": [],
-        "three_sixty_missing_count": 0,
-        "three_sixty_missing_match_ids": [],
-        "three_sixty_failures": [
-          {
-            "match_id": 303666,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303666.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303430,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303430.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303473,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303473.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303700,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303700.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303600,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303600.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303504,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303504.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303487,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303487.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303715,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303715.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303524,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303524.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303451,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303451.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303664,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303664.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303596,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303596.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303517,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303517.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303652,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303652.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303610,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303610.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303400,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303400.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303682,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303682.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303707,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303707.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303377,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303377.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303731,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303731.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303470,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303470.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303479,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303479.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303548,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303548.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303532,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303532.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303674,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303674.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303493,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303493.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303516,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303516.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303696,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303696.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303725,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303725.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303615,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303615.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303680,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303680.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303634,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303634.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          },
-          {
-            "match_id": 303421,
-            "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'raw.githubusercontent.com\\', port=443): Max retries exceeded with url: /statsbomb/open-data/master/data/three-sixty/303421.json (Caused by NameResolutionError(\"HTTPSConnection(host=\\'raw.githubusercontent.com\\', port=443): Failed to resolve \\'raw.githubusercontent.com\\' ([Errno 11001] getaddrinfo failed)\"))'))"
-          }
-        ]
+        "three_sixty_missing_count": 33,
+        "three_sixty_missing_match_ids": [
+          303666,
+          303430,
+          303473,
+          303700,
+          303600,
+          303504,
+          303487,
+          303715,
+          303524,
+          303451,
+          303664,
+          303596,
+          303517,
+          303652,
+          303610,
+          303400,
+          303682,
+          303707,
+          303377,
+          303731,
+          303470,
+          303479,
+          303548,
+          303532,
+          303674,
+          303493,
+          303516,
+          303696,
+          303725,
+          303615,
+          303680,
+          303634,
+          303421
+        ],
+        "three_sixty_failures": []
       },
       {
         "competition_id": 11,

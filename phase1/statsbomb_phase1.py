@@ -847,9 +847,11 @@ DEFAULT_TEAM_ALIASES = {
     "norwich": "norwichcity",
     "swansea": "swanseacity",
     "athleticbilbao": "athleticclub",
+    "athbilbao": "athleticclub",
     "atleticobilbao": "athleticclub",
     "athletic": "athleticclub",
     "atleticomadrid": "atleticomadrid",
+    "athmadrid": "atleticomadrid",
     "atletico": "atleticomadrid",
     "barcelona": "barcelona",
     "realmadrid": "realmadrid",
@@ -868,9 +870,11 @@ DEFAULT_TEAM_ALIASES = {
     "granada": "granada",
     "getafe": "getafe",
     "celta": "celta",
-    "celta de vigo": "celta",
-    "deportivola coruna": "deportivo",
+    "celtadevigo": "celta",
+    "deportivolacoruna": "deportivo",
     "deportivo": "deportivo",
+    "lacoruna": "deportivo",
+    "rcdeportivolacoruna": "deportivo",
     "sportinggijon": "sportinggijon",
     "sporting": "sportinggijon",
     "eibar": "eibar",
@@ -879,6 +883,7 @@ DEFAULT_TEAM_ALIASES = {
     "leganes": "leganes",
     "osasuna": "osasuna",
     "alaves": "alaves",
+    "deportivoalaves": "alaves",
     "alavés": "alaves",
 }
 
@@ -895,8 +900,10 @@ def tag_odds_to_matches(
     left = matches.copy()
     right = odds.copy()
 
+    # Football-Data changed from two-digit to four-digit years across seasons.
+    # Parse day-first flexibly so both 21/01/18 and 21/01/2018 are supported.
     right["match_date"] = pd.to_datetime(
-        right["Date"], format="%d/%m/%y", errors="coerce"
+        right["Date"], format="mixed", dayfirst=True, errors="coerce"
     ).dt.normalize()
     left["match_date"] = pd.to_datetime(
         left["match_date"], errors="coerce"
@@ -965,18 +972,22 @@ def tag_odds_to_matches(
                     "matched_away_key": best_candidate["away_key"],
                 })
         if fuzzy_matches:
-            fuzzy_df = pd.DataFrame(fuzzy_matches)
-            fuzzy_df = fuzzy_df.drop_duplicates("match_id")
-            fuzzy_odds = right_unique.merge(
-                fuzzy_df[["matched_home_key", "matched_away_key", "match_date"]],
-                left_on=["home_key", "away_key", "match_date"],
-                right_on=["matched_home_key", "matched_away_key", "match_date"],
-                how="inner"
+            fuzzy_df = pd.DataFrame(fuzzy_matches).drop_duplicates("match_id")
+            # Keep match_id from the left-side match while attaching the selected
+            # Football-Data identity key; this avoids the former fuzzy-join bug
+            # where match_id was lost before assignment.
+            fuzzy_odds = fuzzy_df.merge(
+                right_unique,
+                left_on=["match_date", "matched_home_key", "matched_away_key"],
+                right_on=["match_date", "home_key", "away_key"],
+                how="left",
+                validate="many_to_one",
+                suffixes=("_left", "_odds"),
             )
             for _, row in fuzzy_odds.iterrows():
-                mask = (tagged["match_id"] == row["match_id"])
-                if mask.any():
-                    tagged.loc[mask, odds_cols] = row[odds_cols].values
+                mask = tagged["match_id"].eq(row["match_id"])
+                if mask.any() and row[odds_cols].notna().all():
+                    tagged.loc[mask, odds_cols] = row[odds_cols].to_numpy()
                     tagged.loc[mask, "_merge"] = "both"
 
     numeric_odds = tagged[odds_cols].apply(pd.to_numeric, errors="coerce")

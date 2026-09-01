@@ -1,0 +1,13 @@
+{
+  "n_requests": 200,
+  "successful": 200,
+  "error_rate": 0.0,
+  "mean_ms": 12.1231305,
+  "p50_ms": 12.0933,
+  "p95_ms": 15.318769999999999,
+  "p99_ms": 15.833002999999987,
+  "max_ms": 17.731,
+  "requirement_ms": 200.0,
+  "pass_p95_under_200ms": true,
+  "pass_p99_under_200ms": true
+}

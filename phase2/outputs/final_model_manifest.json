@@ -1,0 +1,13 @@
+{
+  "best_classifier_from_development": "Logistic",
+  "best_regressor_from_development": "SVR_RBF",
+  "selected_retraining_cadence": "every_1_match",
+  "cadence_rationale": "prequential update after each observed match; 2019/20 sensitivity table reported separately",
+  "prematch_feature_count": 11,
+  "live_feature_count": 14,
+  "selected_inplay_classifier": "LogisticRegression",
+  "selected_inplay_regressor": "SVR_RBF",
+  "test_season": "2020/2021",
+  "test_matches": 33,
+  "real_data_only": true
+}

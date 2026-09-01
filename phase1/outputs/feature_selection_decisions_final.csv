@@ -1,0 +1,8 @@
+step,group,action,mean_dev_rps,delta_rps,n_features_after,reason
+0,momentum,REJECT,,,0,pre-screen rejection: mean missingness=0.423 (>0.30); unstable in earliest temporal fold
+1,core_form,KEEP,0.1605542896927087,,6,domain anchor: prior five-match points/goals/shots/xG; all strictly pre-kickoff
+2,style,KEEP,0.1458445898012039,0.014709699891504807,11,earned its complexity: mean future-season development RPS improved by 0.0147 (threshold 0.0010)
+3,context,REJECT,0.14512300251538815,0.0007215872858157557,11,no out-of-season RPS gain >= 0.0010; rejected to reduce variance and API cost
+3,efficiency,REJECT,0.14714404060748232,-0.0012994508062784127,11,no out-of-season RPS gain >= 0.0010; rejected to reduce variance and API cost
+3,short_form,REJECT,0.14721146965917153,-0.001366879857967629,11,no out-of-season RPS gain >= 0.0010; rejected to reduce variance and API cost
+3,defense_setpiece,REJECT,0.1554587068841899,-0.009614117082985985,11,no out-of-season RPS gain >= 0.0010; rejected to reduce variance and API cost

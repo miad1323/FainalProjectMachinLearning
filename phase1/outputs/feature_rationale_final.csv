@@ -1,0 +1,10 @@
+feature_family,decision,evidence,leakage_status
+market odds,BASELINE_ONLY,100% identity-tagging target; excluded from model features so market comparison remains independent,pre-match identity only
+home/away mirrored raw columns,COMPRESS_TO_DIFFERENCES,paired football quantities describe the same comparison; H-A contrasts reduce redundancy and API feature cost,history only
+momentum,REJECT,mean missingness across raw momentum columns=42.3%; unstable in earliest temporal fold,history only but insufficient availability
+core_form,KEEP,6 features; development mean RPS=0.1606; delta=+nan,all aggregates shifted to matches completed before target kickoff
+style,KEEP,5 features; development mean RPS=0.1458; delta=+0.0147,all aggregates shifted to matches completed before target kickoff
+defense_setpiece,REJECT,4 features; development mean RPS=0.1555; delta=-0.0096,all aggregates shifted to matches completed before target kickoff
+short_form,REJECT,3 features; development mean RPS=0.1472; delta=-0.0014,all aggregates shifted to matches completed before target kickoff
+context,REJECT,2 features; development mean RPS=0.1451; delta=+0.0007,all aggregates shifted to matches completed before target kickoff
+efficiency,REJECT,4 features; development mean RPS=0.1471; delta=-0.0013,all aggregates shifted to matches completed before target kickoff

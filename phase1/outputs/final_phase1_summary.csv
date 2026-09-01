@@ -1,0 +1,10 @@
+metric,value
+raw_matches_cached,138
+pre_match_modeling_rows,111
+in_play_snapshots,1998
+odds_tagged_rows,111
+odds_coverage,1.0
+selected_feature_groups,"core_form, style"
+selected_feature_count,11
+synthetic_rows_used,0
+final_test_season_reserved,2020/2021

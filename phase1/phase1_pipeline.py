@@ -17,6 +17,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from sklearn.base import clone
+from feature_ablation import run_feature_ablation
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 CACHE_ROOT = PROJECT_ROOT.parent / "cache"
@@ -713,6 +714,21 @@ feature_cols = [
     c for c in pre_match.columns
     if c not in NON_FEATURES and pd.api.types.is_numeric_dtype(pre_match[c])
 ]
+from sklearn.ensemble import RandomForestClassifier
+
+
+model = RandomForestClassifier(
+    n_estimators=200,
+    random_state=42,
+    n_jobs=-1
+)
+
+ablation_results = run_feature_ablation(
+    pre_match=pre_match,
+    feature_cols=feature_cols,
+    model=model,
+    output_dir=str(output_dir)
+)
 print("Number of numeric features:", len(feature_cols))
 print(feature_cols[:10], "...")
 

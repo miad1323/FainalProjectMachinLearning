@@ -1,0 +1,10 @@
+Class=A | IF diff_form5_carries_final_third_final <= -31.95 AND diff_form5_goals_against_final <= 1 THEN contribution=-0.135589
+Class=A | IF diff_form5_carries_final_third_final <= -31.95 AND diff_form5_goals_against_final > 1 THEN contribution=0.292983
+Class=A | IF diff_form5_carries_final_third_final > -31.95 AND diff_form5_pressures_final <= -82 THEN contribution=-0.116262
+Class=A | IF diff_form5_carries_final_third_final > -31.95 AND diff_form5_pressures_final > -82 THEN contribution=-0.241262
+Class=D | IF diff_form5_carries_final_third_final <= -31.95 THEN contribution=-0.015948
+Class=D | IF diff_form5_carries_final_third_final > -31.95 AND diff_form5_pressures_final <= -82 THEN contribution=0.240897
+Class=D | IF diff_form5_carries_final_third_final > -31.95 AND diff_form5_pressures_final > -82 THEN contribution=-0.187823
+Class=H | IF diff_form5_carries_final_third_final <= -31.95 THEN contribution=-0.195966
+Class=H | IF diff_form5_carries_final_third_final > -31.95 AND diff_form5_pressures_final <= -82 THEN contribution=-0.032963
+Class=H | IF diff_form5_carries_final_third_final > -31.95 AND diff_form5_pressures_final > -82 THEN contribution=0.439996

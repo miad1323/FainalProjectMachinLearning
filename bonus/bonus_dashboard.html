@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Football ML API Dashboard</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+body{
+    background:#0f172a;
+    font-family:Arial;
+    color:white;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 20px #0005;
+}
+
+.value{
+    font-size:32px;
+    color:#38bdf8;
+}
+
+.green{
+    color:#22c55e;
+}
+
+.chart{
+    margin-top:40px;
+    background:#1e293b;
+    padding:25px;
+    border-radius:20px;
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<h1>⚽ Football Prediction API Dashboard</h1>
+
+
+<div class="container">
+
+
+<div class="card">
+<h3>Status</h3>
+<div class="value green">ONLINE</div>
+</div>
+
+
+<div class="card">
+<h3>Requests</h3>
+<div class="value">200</div>
+<p>Successful</p>
+</div>
+
+
+<div class="card">
+<h3>P95 Latency</h3>
+<div class="value">12.7 ms</div>
+</div>
+
+
+<div class="card">
+<h3>Error Rate</h3>
+<div class="value">0%</div>
+</div>
+
+
+</div>
+
+
+
+<div class="chart">
+
+<h2>API Latency Benchmark</h2>
+
+<canvas id="latency"></canvas>
+
+</div>
+
+
+
+<script>
+
+
+new Chart(
+document.getElementById('latency'),
+
+{
+type:'bar',
+
+data:{
+labels:[
+"Mean",
+"P50",
+"P95",
+"P99",
+"Max"
+],
+
+datasets:[
+
+{
+label:"Latency (ms)",
+
+data:[
+9.446,
+8.935,
+12.705,
+14.147,
+16.422
+]
+
+},
+
+{
+label:"Requirement",
+
+data:[
+200,
+200,
+200,
+200,
+200
+],
+
+type:"line"
+
+}
+
+]
+
+},
+
+options:{
+responsive:true,
+
+plugins:{
+legend:{
+labels:{
+color:"white"
+}
+}
+}
+
+}
+
+}
+
+);
+
+
+</script>
+
+
+</body>
+</html>
